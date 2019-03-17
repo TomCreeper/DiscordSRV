@@ -17,8 +17,8 @@ DiscordConsoleChannelId: "000000000000000000"
 #
 # DebugLevel: 0 = no debug, 1 = debug, 2 = debug with stack traces
 #
-DebugLevel: 0
-DebugJDA: false
+DebugLevel: 2
+DebugJDA: true
 CancelConsoleCommandIfLoggingFailed: true
 DontSendCanceledChatEvents: true
 ForcedLanguage: none
@@ -56,7 +56,7 @@ DiscordChatChannelTranslateMentions: true
 DiscordChatChannelPrefix: ""
 DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Developer", "Owner", "Admin", "Moderator"]
 DiscordChatChannelBroadcastDiscordMessagesToConsole: true
-DiscordChatChannelRequireLinkedAccount: false
+DiscordChatChannelRequireLinkedAccount: true
 DiscordChatChannelBlockBots: false
 DiscordChatChannelBlockedIds: ["000000000000000000", "000000000000000000", "000000000000000000"]
 DiscordChatChannelColorTranslations: {
@@ -196,7 +196,7 @@ DiscordCannedResponses: {"!ip": "yourserveripchange.me", "!site": "http://yoursi
 MinecraftDiscordAccountLinkedConsoleCommands: ["", "", ""]
 MinecraftDiscordAccountUnlinkedConsoleCommands: ["", "", ""]
 MinecraftDiscordAccountLinkedRoleNameToAddUserTo: "Linked"
-MinecraftDiscordAccountLinkedSetDiscordNicknameAsInGameName: false
+MinecraftDiscordAccountLinkedSetDiscordNicknameAsInGameName: true
 
 # Minecraft group -> Discord role synchronization
 #
@@ -231,6 +231,6 @@ ServerWatchdogMessageCount: 3
 # BanSynchronizationDiscordToMinecraftReason: the message to be used as the ban reason for banning players from the Minecraft server
 # BanSynchronizationMinecraftToDiscord: whether or not to ban people on the Discord server if they get banned from the Minecraft server
 #
-BanSynchronizationDiscordToMinecraft: false
+BanSynchronizationDiscordToMinecraft: true
 BanSynchronizationDiscordToMinecraftReason: "&cYou have been banned until further notice from the server because you were banned on our Discord server."
-BanSynchronizationMinecraftToDiscord: false
+BanSynchronizationMinecraftToDiscord: true
